@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>inner html</title>
+<link rel="stylesheet" href=""></link>
+<script>
+
+</script>
+</head>
+<body>
+ <h1>what javascript can do?</h1>
+ <p id="changeText"> javascript can change inner html!</p>
+ <p id="demo"> Hiding HTML elements can be done by changing the display style</p>
+ <button type="button" onclick='document.getElementById("changeText").innerHTML ="Hello javaScript!"' style="padding:10px;background:#4CAF50;color:white;border:none;">Change Text</button>
+ <button type="button" onclick="document.getElementById('demo').style.display = 'none'"  style="padding:10px;background:#4CAF50;color:white;border:none;">Display none</button>
+ <div>
+ <h1>JavaScript Can Change HTML Attribute Values</h1>
+ 
+ <img id="changeImage" src="img/red.jpg" width="200"/></br>
+ <button type="button" onclick="getElementById('changeImage').src='img/blue.jpg'"  style="padding:10px;background:blue;color:white;border:none;">i am blue</button>
+ <button type="button" onclick='getElementById("changeImage").src="img/red.jpg"'  style="padding:10px;background:red;color:white;border:none;">i am red</button>
+ </div>
+</body>
+</html>
