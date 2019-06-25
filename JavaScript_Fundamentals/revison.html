@@ -1,19 +1,48 @@
-<!Doctype html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<title>Revision</title>
-	<link rel="stylesheet" href="">
-	<script>
-	function myFunction(){
-	document.getElementById('changeText').innerHTML=20+50;
-	document.write("My Name Is Archana");
-	}
-	</script>
-</head>
-<body>
-	<h1>Javscript display possibility</h1>
-	<p id="changeText" onclick="myFunction()">This is new paragraph</p>
-	
-</body>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta type="viewport" content="width=device-width, initial-scale">
+		<title>Operators</title>
+		<script>
+		</script>
+	</head>
+	<body>
+		<h1> Types of operators</h1>
+		<ul>
+			<li>Arithmetic Operators </li>
+			<li>Assignment operators</li>
+			<li>string Operators</li>
+			<li>comparison operators</li>
+			<li>logical operators</li>
+			<li>Bitwise operators</li>
+		</ul>
+		<h2>Arithmetic operators</h2>
+		<script>
+		  var a = 15;
+		  var b = 10;
+		  var c = a+b;
+		  document.write("addition operators="+ c + "</br>")
+		  var c = a - b;
+		  document.write("subtraction operators =" + c + "</br>");
+		  var c = a*b;
+		  document.write("multiplication operators" + c + "</br>");
+		  var c = a/b;
+		  document.write("division Operators" + c + "</br>");
+		  var c = a%b;
+		  document.write("modulus operators" + c + "</br>");
+		  a++; 
+		  document.write("increment operators= " + a + "</br>");
+		  b--
+		  document.write("decrement operators= " + b);
+		  
+		  <!-----------preifix and postfix----------->
+		  var x = 7;
+		  var y;
+		  y = x++;
+		  document.write(y)
+		  y = ++x;
+		  document.write(y);
+		</script>
+	</body>
 </html>
