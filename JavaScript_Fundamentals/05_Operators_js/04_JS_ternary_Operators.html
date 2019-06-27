@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset ="UTF-8">
+		<title>Ternary Operators</title>
+		
+	</head>
+	<body>
+		<h1>Ternary Operators</h1>
+		<p>Check your age for vote elegable or not.</p>
+		<input id = "age" value>
+		<button type="button" onclick="myFuncation()">Chack here</button>
+		 
+		<p id="demo"></p>
+		
+	</ul>
+	
+	<script type ="text/javascript" language="javascript">
+		function myFuncation(){ 
+		var age, votable;
+		age = document.getElementById("age").value;	
+		votable = (age < 18)? "Too young":"too old";
+		document.getElementById("demo").innerHTML= votable + " to vote";
+		}
+
+	</script>
+</body>
+</html>

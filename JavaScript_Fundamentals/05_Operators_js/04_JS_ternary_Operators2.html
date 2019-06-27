@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset ="UTF-8">
+		<title>Ternary Operators</title>
+		
+	</head>
+	<body>
+		<h1>Ternary Operators</h1>
+		<p>Check your eligblity.</p>
+		<input id="marks" value="" placeholder="type your marks here" >
+		<button type="button" onclick="myFuncation()">Chack here</button>
+		 
+		<p id="demo"></p>
+		
+	</ul>
+	
+	<script type ="text/javascript" language="javascript">
+		function myFuncation(){ 
+		var marks, eligibility;
+		marks = document.getElementById("marks").value;	
+		eligibility = (marks > 45)? "You are eligible":"you are not eligible";
+		document.getElementById("demo").innerHTML= eligibility + " for this course.";
+		}
+
+	</script>
+</body>
+</html>

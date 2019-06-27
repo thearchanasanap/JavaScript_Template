@@ -34,15 +34,31 @@
 		  a++; 
 		  document.write("increment operators= " + a + "</br>");
 		  b--
-		  document.write("decrement operators= " + b);
+		  document.write("decrement operators= " + b + "</br>");
 		  
 		  <!-----------preifix and postfix----------->
 		  var x = 7;
 		  var y;
 		  y = x++;
-		  document.write(y)
+		  document.write("postfix= " + y + "</br>");
 		  y = ++x;
-		  document.write(y);
+		  document.write("prefix= " +y + "</br>");
+		  
+		  <!-----------Assignment Operators----------->
+		  var s = 23;
+		  var t = 18;
+		  var u = (s=t);
+		  document.write("Assignment Operators=" + u + "</br>");
+		  var u = (s+=t);
+		  document.write("Addition and Assignment= "+ u + "</br>");
+		  var u = (s-=t);
+		  document.write("Subtration and Assignment= "+ u + "</br>");
+		  var u = (s*=t);
+		  document.write("Multiplication and Assignment= "+ u + "</br>");
+		  var u = (s/=t);
+		  document.write("Division and Assignment= "+ u + "</br>");
+		  var u = (s%=t) ;
+		  document.write("modulus and Assignment= "+ u + "</br>")
 		</script>
 	</body>
 </html>
